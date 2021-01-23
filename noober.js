@@ -1,26 +1,3 @@
-let levelOfService
-let passenger1Name
-let passenger1Phone
-let passenger1NumberOfPassengers
-let passenger1PickupAddressLine1
-let passenger1PickupAddressLine2
-let passenger1DropoffAddressLine1
-let passenger1DropoffAddressLine2
-let passenger2Name
-let passenger2Phone
-let passenger2NumberOfPassengers
-let passenger2PickupAddressLine1
-let passenger2PickupAddressLine2
-let passenger2DropoffAddressLine1
-let passenger2DropoffAddressLine2
-let passenger3Name
-let passenger3Phone
-let passenger3NumberOfPassengers
-let passenger3PickupAddressLine1
-let passenger3PickupAddressLine2
-let passenger3DropoffAddressLine1
-let passenger3DropoffAddressLine2
-
 function pageLoad() {
   // 👇 YOUR CODE BEGINS HERE. DON'T CHANGE ANY OTHER CODE. 👇
  
