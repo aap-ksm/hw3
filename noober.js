@@ -26,8 +26,7 @@ function pageLoad() {
   passenger1DropoffAddressLine1 = `${ride[0].dropoffLocation.address}`
   passenger1DropoffAddressLine2 = `${ride[0].dropoffLocation.city}, ${ride[0].dropoffLocation.state} ${ride[0].dropoffLocation.zip}`
 
-  if (ride.length > 1) {
-    window.passenger2Name = true
+  if (ride.length > 1) {    
     passenger2Name = `${ride[1].passengerDetails.first} ${ride[1].passengerDetails.last}`
     passenger2Phone = `${ride[1].passengerDetails.phoneNumber}`
     passenger2NumberOfPassengers = `${ride[1].numberOfPassengers}`
@@ -36,11 +35,10 @@ function pageLoad() {
     passenger2DropoffAddressLine1 = `${ride[1].dropoffLocation.address}`
     passenger2DropoffAddressLine2 = `${ride[1].dropoffLocation.city}, ${ride[1].dropoffLocation.state} ${ride[1].dropoffLocation.zip}`
   } else {
-    window.passenger2Name = undefined
+    passenger2Name = undefined
   }
 
-  if (ride.length > 2) {
-    window.passenger3Name = true
+  if (ride.length > 2) {    
     passenger3Name = `${ride[2].passengerDetails.first} ${ride[2].passengerDetails.last}`
     passenger3Phone = `${ride[2].passengerDetails.phoneNumber}`
     passenger3NumberOfPassengers = `${ride[2].numberOfPassengers}`
@@ -49,7 +47,7 @@ function pageLoad() {
     passenger3DropoffAddressLine1 = `${ride[2].dropoffLocation.address}`
     passenger3DropoffAddressLine2 = `${ride[2].dropoffLocation.city}, ${ride[2].dropoffLocation.state} ${ride[2].dropoffLocation.zip}`
   } else {
-    window.passenger3Name = undefined
+    passenger3Name = undefined
   }
   
 
